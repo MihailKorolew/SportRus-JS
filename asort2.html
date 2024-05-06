@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+    <div class="line44" id="scrollIndicator"></div>
     <header class = "header">
         <div class="wrapper">
             <div class="header_wrapper">
@@ -47,8 +48,9 @@
                 <h1 class="intro2_title">
                     Ассортимент
                 </h1>
+                <input id = "searchbar" class ="searchtowar" onkeyup="search_towar()" type = "text" name = "search" placeholder = "Поиск товара">
                 <ul class="str_crosovok">
-                    <li class="part1">
+                    <li class="part2">
                         <a href="/" class="intro5_picture1">
                             <img src="./img/gantel1.png" alt="SportRusCros" class="Crosovk1">
                         </a>
@@ -90,7 +92,7 @@
                         </ul>
                     </li>
     
-                    <li class="part3">
+                    <li class="part2">
                         <a href="/" class="intro5_picture1">
                             <img src="./img/gantel3.png" alt="SportRusCros" class="Crosovk1">
                         </a>
@@ -117,6 +119,7 @@
 
 
             </div>
+            <script src="dinam.js"></script>
         </section>
     </main>
 </body>

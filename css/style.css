@@ -930,3 +930,65 @@ body{
     font-size: 15px;
     color: #fff;
 }
+
+.searchtowar{
+    width: 542.45px;
+    height: 67.31px;
+    border-radius: 6px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.line44 { 
+    background: blueviolet; 
+    height: 8px; 
+    border-radius: 4px; 
+    width: 0%; 
+    position: fixed; 
+    top: 0; 
+} 
+
+/*Счётчик */
+
+.container{
+    height: 20vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    margin-left: 100px;
+}
+.container h1{
+    margin: 30px;
+}
+.counter{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+#increment-btn, #decrement-btn, #reset{
+    height: 50px;
+    width: 120px;
+    padding: 0 40px;
+    border-radius: 10px;
+    font-size: 40px;
+    background-color: #2e8d46;
+    border: 2px solid #2e8d46;
+    color: white;
+    margin: 20px;
+}
+#reset{
+    font-size: 20px;
+}
+#counter-value{
+    height: 50px;
+    min-width: 120px;
+    border-radius: 10px;
+    background-color: rgba(255, 0, 0, 0.187);
+    margin-top: 20px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
